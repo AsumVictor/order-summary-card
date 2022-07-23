@@ -1,37 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="bootstrap.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Order summary card</title>
+ 
 </head>
 <body>
+   <main class="">
+    <div class="container-fluid justify-content-center align-items-center d-flex">
+       <div class="row justify-content-center align-items-center d-flex">
+        <div class="col-12 justify-content-center align-items-center d-flex">
+          <div class="orderCard border" style="height: 525px;width:310px;">
+            <img src="images/illustration-hero.svg" style="width:100% ;" srcset="images/illustration-hero.svg">
+             <article>
+                <h3>Order Summary</h3>
+                <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+                device anywhere you like!</p>
+             </article>
+              <div class="row">
+                 <img src="images/icon-music.svg" alt="images/icon-music.svg" srcset="images/icon-music.svg">
+                  <section>
+                    Annual Plan <br> $59.99/year
+                  </section>
+                  <p>Change</p>
+              </div>
+              <button>  Proceed to Payment</button>
+              <div class="cancel">
+                <h6>  Cancel Order</h6>
+              </div>
+        </div>
+       </div>
+    </div>
+     </div>
 
-  Order Summary
+   </main>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
 
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
+    <!--<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 </html>
