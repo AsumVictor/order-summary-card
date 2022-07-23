@@ -3,9 +3,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("images/pattern-background-desktop.svg");
-    background-repeat: no-repeat;
+main{
+   background-color: red;
 }
 
 .container-fluid{
@@ -13,6 +12,8 @@ body{
     width: 100%;
     position: fixed;
     overflow-y: scroll;
+    background-image:url("images/pattern-background-desktop.svg"),linear-gradient(hsl(227, 92%, 95%),hsl(229, 100%, 96%));
+    background-repeat: no-repeat;
 }
 
 .orderCard{
