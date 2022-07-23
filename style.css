@@ -12,9 +12,34 @@ body{
     height: 100%;
     width: 100%;
     position: fixed;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .orderCard{
     overflow: hidden;
+    flex-direction: column;
+}
+
+article{
+    flex-direction: column;
+}
+
+.row1{
+    flex-direction: row;
+    justify-content: center ;
+    position: relative;
+}
+
+.row1 img{
+    left: 20px;
+    position: absolute;
+}
+
+.row1 section{
+    margin-left: -3rem;
+}
+
+.row1 p{
+    right: 20px;
+    position: absolute;
 }
