@@ -57,3 +57,10 @@ button{
 .change a:hover{
     color: hsl(229, 79%, 82%);
 }
+h6{
+    color: hsl(224, 23%, 55%);
+}
+h6:hover{
+ color: hsl(229, 79%, 73%);
+ cursor: pointer;
+}
