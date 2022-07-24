@@ -12,7 +12,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Challenge By:](#Challenge from)
+  - [Challenge By](#Challenge-from)
 - [Author](#author)
 
 
@@ -50,7 +50,7 @@ Compare the actual challenge design in [Design Folder](design/), if you iike it 
 - [x] Frameworks  
      - Bootstrap
 
-##Challenge from
+##Challenge-from
 This challenge is frontendmentor. click [here](https://www.frontendmentor.io/profile/AsumVictor) to access get more frontend Challenges. like my solutions when you visit.
 
 ## 👨🏾‍💻Author
